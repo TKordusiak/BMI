@@ -26,6 +26,7 @@ public class app {
 			sc.close();
 		}
 
+	//BMI
 		private static void calculateWHR() {
 			Scanner sc = new Scanner(System.in);
 			double waistCircumference = 0;
@@ -61,7 +62,8 @@ public class app {
 			}
 		}			
 		
-
+		
+		//WHR
 		private static void calculateBMI() {
 			Scanner sc = new Scanner(System.in);
 			double bodyWeight = 0;
