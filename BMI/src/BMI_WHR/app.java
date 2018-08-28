@@ -92,7 +92,7 @@ public class app {
 				System.out.println();			
 				
 				if(BMI.score(bodyWeight, height)<18.5){
-					System.out.println("chyba Ciê muter g³odzi boœ wygl¹dasz jak szkapa. We¿ siê kamrata i biegusiem na kebaba");
+					System.out.println("chyba Ciê muter g³odzi. We¿ siê kamrata i biegusiem na kebaba");
 				} else if(BMI.score(bodyWeight, height)>24.99) {
 					System.out.println("Schudnij gorolu, udej siê do Sosnowca na szybka przebie¿ka  !! Masz nadwagê ciulu");
 				}else {
