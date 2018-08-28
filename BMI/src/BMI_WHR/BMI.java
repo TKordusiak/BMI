@@ -5,10 +5,4 @@ public class BMI {
 		height = height/100;
 		return bodyWeight/(height * height);
 	}
-	static double score2(double waistCircumference, double hipCircumference ) {
-		return waistCircumference/hipCircumference;
-	}
-
-	
-
 }
